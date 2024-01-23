@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "photo": "./assets/image/popular1.png",
+      "name": "Thermo Ball Etip Gloves",
+      "price": "$ 45,743"
+    },
+    {
+      "id": "2",
+      "photo": "./assets/image/popular2.png",
+      "name": "Thermo Ball Etip Gloves",
+      "price": "$ 45,743"
+    },
+    {
+      "id": "3",
+      "photo": "./assets/image/popular3.png",
+      "name": "Thermo Ball Etip Gloves",
+      "price": "$ 45,743"
+    },
+    {
+      "id": "4",
+      "photo": "./assets/image/popular4.png",
+      "name": "Thermo Ball Etip Gloves watch",
+      "price": "$ 45,743"
+    },
+    {
+      "id": "5",
+      "photo": "./assets/image/popular5.png",
+      "name": "Thermo Ball Etip Gloves",
+      "price": "$ 45,743"
+    },
+    {
+      "id": "6",
+      "photo": "./assets/image/popular6.png",
+      "name": "Thermo Ball Etip Gloves",
+      "price": "$ 45,743"
+    }
+  ]
+}
