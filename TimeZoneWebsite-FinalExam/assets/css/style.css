@@ -29,6 +29,11 @@ header {
   color: black;
   font-size: 18px;
 }
+.header a:hover{
+    color: red;
+    transition: 0.4s;
+}
+
 .header .icons {
   display: flex;
   gap: 35px;
@@ -244,7 +249,7 @@ font-size: 15px;
 .end .logo-end p{
 max-width: 300px;
 font-size: 20px;
-opacity: 0.8;
+color: gray;
 }
 .end .logo-end img{
     margin-bottom: 30px;
@@ -255,11 +260,123 @@ opacity: 0.8;
     gap: 30px;
 }
 .end .support a{
-    color: black;
-    opacity: 0.8;
+    color: gray;
    line-height: 35px;
    font-size: 18px;
 }
 .end .support a:hover{
     color: red;
+}
+footer{
+    height: 20vh;
+    padding: 60px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+font-size: 18px;
+color: gray;
+}
+.footer span{
+    color: red;
+}
+.footer .copyright i{
+    color: red;
+}
+.footer .social-icons{
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+}
+.footer .social-icons i:hover{
+    color: red;
+}
+
+/* .form{
+    border: 1px solid gray;
+    width: 30%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+
+#form-table{
+    padding: 60px 0;
+}
+.form form{
+    border: 1px solid gray;
+    width: 30%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+.form form button{
+padding: 5px 20px;
+background-color: #4a4a4b;
+border: none;
+color: white;
+}
+.form form input{
+    padding: 10px 20px;
+}
+
+table{
+    width: 100%;
+}
+table img{
+    width: 80px;
+
+}
+td,th{
+    text-align: center;
+}
+
+tr:nth-child(even){
+   background-color: #dddddd;
+}
+table button{
+    background-color: transparent;
+    border: 1px solid;
+    padding: 8px 13px;
+}
+
+.table{
+    padding: 60px 0;
+}
+
+.table input{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+#details-page{
+    padding: 50px 0;
+}
+#details-page h2{
+    text-align: center;
+    font-size: 40px;
+}
+#details-page .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#details-page .card h4{
+    font-size: 25px;
+    color: #4a4a4b;
+}
+#details-page .card p{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
 }
