@@ -303,6 +303,7 @@ footer {
   color: red;
 }
 
+
 /* .form{
     border: 1px solid gray;
     width: 30%;
@@ -313,7 +314,7 @@ footer {
 } */
 
 #form-table {
-  padding: 60px 0;
+  padding: 150px 0;
 }
 .form form {
   border: 1px solid gray;
